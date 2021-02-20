@@ -1,9 +1,12 @@
 [user]
-	signingkey = B14BFA03487A00355D8367D49A48ECE101215A8E
+	signingkey = 9A48ECE101215A8E
 	name = Ashish Saini
 	email = sainiashish08@gmail.com
 [core]
 	autocrlf = input
-	editor = code
 [init]
 	defaultBranch = main
+[credential]
+	helper = /usr/share/doc/git/contrib/credential/libsecret/git-credential-libsecret
+[commit]
+	gpgsign = true
